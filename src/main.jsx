@@ -2,7 +2,7 @@ import ReactDOM from 'react-dom/client'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 
 
-import Nav from './pages/Nav.jsx'
+import Nav from './components/Nav.jsx'
 import AboutMe from './pages/AboutMe.jsx'
 import Portfolio from './pages/Portfolio.jsx'
 import './index.css'

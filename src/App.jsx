@@ -10,19 +10,21 @@ import { Outlet } from 'react-router-dom';
 export default function App() {
   return (
     <Routes>
-        <>
-          <Nav />
-          <Route>
-            <Route path="/AboutMe" element={AboutMe} />
-          </Route>
-      <AboutMe />
-      <Portfolio/>
-      <main className="mx-3">
-        <Outlet />
-      </main>
-    </>
-  </Routes>
+          <Route
+            path="/" 
+            element={ 
+            <>
+            <Nav/>
+        <main className="mx-3">
+          <Outlet />
+        </main>
+          </>
+            }
+            >
+       <Route path="AboutMe" element={<AboutMe />} />
+    <Route path="Portfolio" element={<Portfolio />} />
+        </Route>
+        </Routes>
   );
-}
 
-
+          }

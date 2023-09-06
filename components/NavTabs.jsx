@@ -20,7 +20,6 @@ function NavTabs() {
           Portfolio
         </Link>
       </li>
-      <li>
         <li className="nav-item">
           <Link
             to="/Resume"

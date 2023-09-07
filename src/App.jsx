@@ -2,30 +2,28 @@ import { Routes, Route } from 'react-router-dom';
 import AboutMe from './pages/AboutMe';
 import Nav from './components/NavTabs';
 import Portfolio from './pages/Portfolio';
-import { Outlet } from 'react-router-dom';
 
-import PageHeader from 'react-router-dom'
+// Footers file was named so to differenciate the names
+import Footer from './components/Footers'
 
 
 export default function App() {
   return (
+   <div>
+   <Nav>
+    </Nav>
     <Routes>
-         {/* <PageHeader path="Nav" element={<Nav />} /> */}
+        
           <Route
-            path="*" 
+            path="/" 
             element={ 
-            <>
-            <AboutMe/>
-        <main className="mx-3">
-          <Outlet />
-        </main>
-          </>
-            }
-            >
-       <Route path="AboutMe" element={<AboutMe />} />
+            <AboutMe/>} />    
+    <Route path="AboutMe" element={<AboutMe />} />
     <Route path="Portfolio" element={<Portfolio />} />
-        </Route>
         </Routes>
-  );
+  <Footer>
 
-          }
+  </Footer>
+</div>
+  );       
+ };

@@ -1,11 +1,11 @@
 import { Link, useLocation } from 'react-router-dom';
-function NavTabs() {
+function Nav() {
   const currentPage = useLocation().pathname;
 
   return (
     <div>
     <h2 id='header'>Brandon Witkowski</h2>
-        <ul className="nav nav-tabs">
+        <ul className="nav-tabs">
       <li className="nav-item-about">
         <Link
           to="/AboutMe"
@@ -35,4 +35,4 @@ function NavTabs() {
   );
 }
 
-export default NavTabs;
+export default Nav;

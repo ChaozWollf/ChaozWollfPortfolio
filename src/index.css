@@ -1,3 +1,5 @@
+/* NavTabs Section */
+
 #header {
   display:inline-flex;
   font-family: 'Times New Roman', Times, serif;
@@ -10,7 +12,131 @@ margin-left:-0.4%;
 margin-right: 0%
 }
 
-#nav-tabs {
+.nav-tabs {
   display:inline-flex;
   font-size:xx-large;
+}
+.nav-item-about {
+  display: inline-flex;
+  margin-left: 230%;
+}
+
+.nav-item-portfolio {
+  display: inline-flex;
+    margin-left: 15%;
+}
+.nav-item-resume {
+  display: inline-flex;
+    margin-left: 15%;
+}
+
+/* About Me Section */
+
+#aboutBackground {
+  /* TODO */
+}
+
+#jplenio {
+  /* TODO */
+}
+
+#me {
+  /* TODO */
+}
+
+/* Portfolio Section */
+
+
+.card-body{
+
+}
+
+.Weath-Dash {
+
+}
+
+.WD_port {
+
+}
+
+.WD_App {
+
+}
+
+.PasswordGen {
+
+}
+
+.PW_port {
+
+}
+
+.PW_App {
+
+}
+
+.WorkDay {
+
+}
+
+.WDS_port {
+
+}
+
+.WDS_App {
+
+}
+
+.QuizQuery {
+
+}
+
+.QQ_port {
+
+}
+
+.QQ_App {
+
+}
+
+.QuoteOfDay {
+
+}
+
+.QD_port {
+
+}
+
+.QD_App {
+
+}
+
+.Event_Lister {
+
+}
+
+.EL_port {
+
+}
+
+.ET_App {
+
+}
+
+/* Footer Section */
+
+#footerss {
+
+}
+
+#github {
+
+}
+
+#linkedin {
+
+}
+
+#X {
+
 }

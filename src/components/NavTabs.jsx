@@ -24,7 +24,7 @@ function Nav() {
       </li>
         <li className="nav-item-resume">
           <Link
-            to="/Resume"
+            to="https://1drv.ms/w/s!AvMsHLIpaVqo1UgbfaZvhUb-b5Xf?e=ZxZZpJ"
             className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
           >
             Resume

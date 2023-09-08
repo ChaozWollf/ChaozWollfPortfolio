@@ -10,10 +10,7 @@ margin-left:-0.4%;
 margin-right: 0%
 }
 
-.nav-tabs {
+#nav-tabs {
   display:inline-flex;
-  color: green;
-  font-size: x-large;
-  margin-left: 80%;
-  margin-bottom: -9.3%;
+  font-size:xx-large;
 }

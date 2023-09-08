@@ -1,9 +1,9 @@
 #header {
   display:inline-flex;
   font-family: 'Times New Roman', Times, serif;
-  color: red;
+  color: #dfe0e2;
   font-size: 58px;
-  background-image: linear-gradient(to right, blue, black);
+  background-image: linear-gradient(to right,#071013 , #75ABBC);
   margin-bottom: 0%;
   margin-top: -0.3%;
 margin-left:-0.4%;

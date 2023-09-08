@@ -1,13 +1,11 @@
 function Footer() {
     return (
-        // < div id="footerss">
-        // // <a id= 'github' href='https://github.com/ChaozWollf'><img id='../../../images/GitHub-Mark.png'alt='a github mark logo'></img></a>
-        //  // <a id= 'linkedin' href='https://www.linkedin.com/in/brandon-witkowski-199765270/'><img id='../../../public/images/LinkedIn_logo_initials.png'alt='a linkdin logo'></img></a>
-        //  // <a id= 'meta' href='https://www.facebook.com/profile.php?id=100090098117999'><img id='../../../public/images/metaimages.png'alt='a Facebook logo'>'</img></a>
+        < div id="footerss">
+         <a id= 'github' href='https://github.com/ChaozWollf'><i className= 'fab fa-github'></i></a>
+         <a id= 'linkedin' href='https://www.linkedin.com/in/brandon-witkowski-199765270/'><i className= 'fab fa-linkedin'></i></a> 
+            <a id='X' href='https://twitter.com/Bjwitko_2480'><i className ='fab fa-twitter'></i></a> 
         // </div>
-       <h2>working on it</h2> 
-
-
+   
     )
 }
 export default Footer

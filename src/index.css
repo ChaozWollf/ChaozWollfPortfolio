@@ -33,11 +33,11 @@ margin-right: 0%
 /* About Me Section */
 
 #aboutBackground {
-  /* TODO */
+ /* TODO */
 }
 
 #jplenio {
-  /* TODO */
+  max-width: 550%;
 }
 
 #me {
@@ -52,7 +52,7 @@ margin-right: 0%
 }
 
 .Weath-Dash {
-
+max-width: 100%;
 }
 
 .WD_port {

@@ -1,47 +1,64 @@
 /* NavTabs Section */
 
 #header {
-  display:inline-flex;
+  display:flex;
   font-family: 'Times New Roman', Times, serif;
   color: #c7cedb   ;
   font-size: 58px;
   background-image: linear-gradient(to right,#2e3532 , #94849b);
-  margin-bottom: 0%;
+  margin-bottom: -7.35%;
   margin-top: -0.3%;
-margin-left:-0.4%;
-margin-right: 0%
+margin-left:-0.3%;
+margin-right: -0.36%;
 }
 
 .nav-tabs {
-  display:inline-flex;
+  display:flex;
   font-size:xx-large;
+  position:relative;
+  margin-top: 10%;
+  margin-left:0%; 
 }
 .nav-item-about {
   display: inline-flex;
-  margin-left: 230%;
+  margin-top: -5%;
+  margin-left: 59%;
 }
 
 .nav-item-portfolio {
   display: inline-flex;
-    margin-left: 15%;
+  margin-top: -5%;
+  margin-left: 5%;
 }
 .nav-item-resume {
   display: inline-flex;
-    margin-left: 15%;
+  margin-top: -5%;
+  margin-left: 5%;
 }
 
 /* About Me Section */
 
 #aboutBackground {
- /* TODO */
+background-color:#071013 ;
 }
 
-#jplenio {
-  max-width: 550%;
+#myPersonality{
+  color: #dfe0e2;
+
+}
+#Shubham {
+  max-width: 102%;
+ margin-top: -4.4%;
+  margin-left: -0.3%;
 }
 
 #me {
-  /* TODO */
+display:inline-flex;
+position:relative;
+  max-width: 15%;
+margin-top: -110%;
+margin-bottom:20;
+z-index:1;
 }
 
 /* Portfolio Section */
@@ -52,7 +69,7 @@ margin-right: 0%
 }
 
 .Weath-Dash {
-max-width: 100%;
+max-width: 50%;
 }
 
 .WD_port {
@@ -126,17 +143,22 @@ max-width: 100%;
 /* Footer Section */
 
 #footerss {
-
+background-color: #071013;
+margin-top:-1.1%;
+margin-left:-1%
 }
 
 #github {
-
+font-size: 600%;
+margin-left: 40%;
 }
 
 #linkedin {
-
+font-size: 600%;
+margin-left: 3%;
 }
 
 #X {
-
+font-size: 600%;
+margin-left: 4%;
 }

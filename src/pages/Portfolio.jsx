@@ -29,16 +29,14 @@ function Portfolio() {
                     <a className='WDS_App' href='https://chaozwollf.github.io/Work-Day-Sched'  > Work Day Scheduler App</a>
                 </div>
             </div> 
-            <div className="QuizQuery">
+            <div className="Queries">
                 <div className=""> </div>
-                <div className="card-body"><img className='Quiz' src='../../../public/images/Screenshot 2023-09-08 144041.png'>
+                <div className="card-body"><img className='Quieries' src='ChaozWollfPortfolio/public/images/Screenshot 2023-09-21 124342.png'>
                 </img>
 
-                    <a className='QQ_port' href='https://github.com/ChaozWollf/Quiz-Query'  >Soon to be Deleted 
-                    Quiz Portfolio</a>
+                    <a className='CQ_port' href='https://github.com/ChaozWollf/conspiracyQueries'  >Conspieracy Queries Portfolio</a>
 
-                    <a className='QQ_App' href='https://chaozwollf.github.io/Quiz-Query/'  >Soon to be Deleted 
-                    Quiz App</a>
+                    <a className='CQ_App' href='https://conspiracy-quieries-a028e6117796.herokuapp.com/'  >Consiracy Queries App</a>
                 </div>
             </div> 
             <div className="QuoteOfDay">

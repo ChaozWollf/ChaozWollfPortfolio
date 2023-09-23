@@ -1,4 +1,9 @@
 import { Link, useLocation } from 'react-router-dom';
+// function Nav({NavTab, name}) {
+//   return ()
+// }
+
+
 function Nav() {
   const currentPage = useLocation().pathname;
 

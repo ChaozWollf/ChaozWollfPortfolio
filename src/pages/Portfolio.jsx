@@ -31,7 +31,7 @@ function Portfolio() {
             </div> 
             <div className="Queries">
                 <div className=""> </div>
-                <div className="card-body"><img className='Quieries' src='ChaozWollfPortfolio/public/images/Screenshot 2023-09-21 124342.png'>
+                <div className="card-body"><img className='Quieries' src='../../../public/images/Screenshot 2023-09-21 124342.png'>
                 </img>
 
                     <a className='CQ_port' href='https://github.com/ChaozWollf/conspiracyQueries'  >Conspieracy Queries Portfolio</a>

@@ -64,15 +64,15 @@ z-index:1;
 /* Portfolio Section */
 
 
-/* .card-body{
-
+.card-body{
+max-width: 50%;
 }
 
 .Weath-Dash {
 max-width: 50%;
 }
 
-.WD_port {
+/*.WD_port {
 
 }
 
@@ -162,3 +162,23 @@ margin-left: 3%;
 font-size: 600%;
 margin-left: 4%;
 }
+
+@media screen and (max-width: 922) {
+  #header {
+    background-image: linear-gradient(to right, #53c7ee, #81608A);
+  }
+} 
+
+@media screen and (max-width: 1800) {
+  #header {display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    color: #c7cedb;
+    font-size: 58px;
+    background-image: linear-gradient(to right,#53c7ee ,#81608A );
+    margin-bottom: -7.35%;
+    margin-top: -0.3%;
+    margin-left: -0.3%;
+    margin-right: -0.36%;
+  }
+    
+  }
